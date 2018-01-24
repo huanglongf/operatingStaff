@@ -1,0 +1,78 @@
+2018-01-24 14:48:58,494 TRACE (ImpalaJdbc.java:51)- url:self_category_sale	querylist:
+		select 
+		   sum(uv) as uv,		   
+		   sum(valid_order_amount) as eff_order_amount
+		from ads.ads_self_category_sales where 1=1 and dt between '20180121' and '20180121'
+			and sale_kind = 'ALL'
+		order by uv desc
+2018-01-24 14:52:21,337 TRACE (ImpalaJdbc.java:51)- url:self_category_sale	querylist:
+		select 
+		   sum(uv) as uv,		   
+		   sum(valid_order_amount) as eff_order_amount
+		from ads.ads_self_category_sales where 1=1 and dt between '20180121' and '20180121'
+			and sale_kind = 'ALL'
+		order by uv desc
+2018-01-24 14:52:56,649 TRACE (ImpalaJdbc.java:51)- url:self_category_sale	querylist:
+		select 
+		   sum(uv) as uv,		   
+		   sum(valid_order_amount) as eff_order_amount
+		from ads.ads_self_category_sales where 1=1 and dt between '20180121' and '20180121'
+			and sale_kind = 'ALL'
+		order by uv desc
+2018-01-24 15:51:59,388 TRACE (ImpalaJdbc.java:51)- url:self_category_sale	querylist:
+		select 
+		   sum(uv) as uv,		   
+		   sum(valid_order_amount) as eff_order_amount
+		from ads.ads_self_category_sales where 1=1 and dt between '20180121' and '20180121'
+			and sale_kind = 'ALL'
+		order by uv desc
+2018-01-24 15:58:03,666 TRACE (ImpalaJdbc.java:51)- url:self_category_sale	querylist:
+		select 
+		   sum(uv) as uv,		   
+		   sum(valid_order_amount) as eff_order_amount
+		from ads.ads_self_category_sales where 1=1 and dt between '20180121' and '20180121'
+			and sale_kind = 'ALL'
+		order by uv desc
+2018-01-24 17:15:23,971 TRACE (ImpalaJdbc.java:51)- url:self_category_sale	querylist:
+		select 
+		   sum(uv) as uv,		   
+		   sum(valid_order_amount) as eff_order_amount
+		from ads.ads_self_category_sales where 1=1 and dt between '20180121' and '20180121'
+			and sale_kind = 'ALL'
+		order by uv desc
+2018-01-24 17:15:23,971 TRACE (ImpalaJdbc.java:51)- url:self_category_sale	querylist:
+		select 
+		   sum(uv) as uv,		   
+		   sum(valid_order_amount) as eff_order_amount
+		from ads.ads_self_category_sales where 1=1 and dt between '20180121' and '20180121'
+			and sale_kind = 'ALL'
+		order by uv desc
+2018-01-24 17:15:23,971 TRACE (ImpalaJdbc.java:51)- url:self_category_sale	querylist:
+		select 
+		   sum(uv) as uv,		   
+		   sum(valid_order_amount) as eff_order_amount
+		from ads.ads_self_category_sales where 1=1 and dt between '20180121' and '20180121'
+			and sale_kind = 'ALL'
+		order by uv desc
+2018-01-24 17:15:23,971 TRACE (ImpalaJdbc.java:51)- url:self_category_sale	querylist:
+		select 
+		   sum(uv) as uv,		   
+		   sum(valid_order_amount) as eff_order_amount
+		from ads.ads_self_category_sales where 1=1 and dt between '20180121' and '20180121'
+			and sale_kind = 'ALL'
+		order by uv desc
+2018-01-24 17:15:23,971 TRACE (ImpalaJdbc.java:51)- url:self_category_sale	querylist:
+		select 
+		   sum(uv) as uv,		   
+		   sum(valid_order_amount) as eff_order_amount
+		from ads.ads_self_category_sales where 1=1 and dt between '20180121' and '20180121'
+			and sale_kind = 'ALL'
+		order by uv desc
+2018-01-24 18:46:49,190 TRACE (ImpalaJdbc.java:51)- url:self_category_sale	querylist:
+		select 
+		   sum(uv) as uv,		   
+		   sum(valid_order_amount) as eff_order_amount
+		from ads.ads_self_category_sales where 1=1 and dt between '20180121' and '20180121'
+			and sale_kind = 'ALL'
+			and sale_kind = 'ALL'
+		order by uv desc

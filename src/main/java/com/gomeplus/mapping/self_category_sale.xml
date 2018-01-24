@@ -1,0 +1,18 @@
+<!-- 自营品类销售 -->
+<mapper>
+    <!-- 查询分页明细、查询分页同比、查询分页环比、导出当前维度条件下全量 -->
+	<select id="querylist" page="true" export="true" tb="true" hb="true">
+		select 
+		   sum(uv) as uv,		   
+		   sum(valid_order_amount) as eff_order_amount
+		from ads.ads_self_category_sales where 1=1 and dt between '${st}' and '${et}'
+		<if test="sale_kind == 'ALL'">
+			and sale_kind = 'ALL'
+		</if>
+		<if test="sale_kind != 'ALL'">
+			and sale_kind in (${sale_kind})
+		</if>
+		order by ${orderby} ${ordertype}
+		
+	</select>
+</mapper>
